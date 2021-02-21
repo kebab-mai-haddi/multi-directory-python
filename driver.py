@@ -1,5 +1,6 @@
-import car
-import transport
+from vehicles.car import car
+from vehicles.vehicles import Vehicle
+from transport import transport
 
 
 def main_2():
@@ -13,3 +14,5 @@ def main_2():
     tractor_pollution_permit.fetch_tractor(2018, True)
     tractor_pesticides = transport.TractorPesticides()
     tractor_pesticides.fetch_pesticides_permit(11)
+
+main_2()

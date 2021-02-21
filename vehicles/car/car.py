@@ -1,6 +1,6 @@
-from vehicles import Vehicle, Dummy
-from transport import CarPollutionPermit, BikePollutionPermit
-import pandas as pd
+from vehicles.vehicles import Vehicle, Dummy
+from transport.transport import CarPollutionPermit, BikePollutionPermit
+# import pandas as pd
 
 
 class Car(Vehicle):
@@ -33,6 +33,6 @@ class Bike(Vehicle, BikePollutionPermit, Dummy):
         print(self.pollution_compliance)
 
     def play_with_pandas(self):
-        df = pd.DataFrame([1, 2, 3, 4])
+        # df = pd.DataFrame([1, 2, 3, 4])
         print("The dataframe is: ")
-        print(df)
+        # print(df)
