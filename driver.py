@@ -15,4 +15,4 @@ def main_2():
     tractor_pesticides = transport.TractorPesticides()
     tractor_pesticides.fetch_pesticides_permit(11)
 
-main_2()
+# main_2()
