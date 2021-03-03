@@ -1,4 +1,4 @@
-class Vehicle:
+class Vehicle_Levels:
     def __init__(self, usage='domestic'):
         self.usage = usage
 
@@ -7,7 +7,7 @@ class Vehicle:
         return self.mileage
 
 
-class Dummy:
+class Dummy_Levels:
     def __init__(self, dummy):
         self.dummy = dummy
 
